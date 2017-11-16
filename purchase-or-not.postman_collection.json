@@ -1,0 +1,38 @@
+{
+	"info": {
+		"name": "purchase-or-not",
+		"_postman_id": "5e7d3eb1-4c0d-96c5-fcdb-38a4056d306a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8000/ann",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"age\":58,\n\t\"balance\":2143,\n\t\"pdays\":999,\n\t\"previous\":0,\n\t\"campaign\": 1,\n\t\"contact\": \"unknown\",\n\t\"default\": \"no\",\n\t\"education\": \"primary\",\n\t\"housing\": \"yes\",\n\t\"job\": \"management\",\n\t\"loan\": \"yes\",\n\t\"marital\": \"married\",\n\t\"poutcome\": \"unknown\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8000/ann",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"ann"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
