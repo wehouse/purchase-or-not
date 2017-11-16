@@ -63,4 +63,5 @@ Docker image is provided via Quay, its launch instructions are here:
 postman collection in repo again will be the primary way to use it.
 
 ## References
-1. https://www.kaggle.com/harlfoxem/housesalesprediction/data
+1. (Moro et al., 2014) S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
+2. https://archive.ics.uci.edu/ml/datasets/bank+marketing
