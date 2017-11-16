@@ -1,6 +1,6 @@
 [![Docker Repository on Quay](https://quay.io/repository/wehouse/purchase-or-not/status "Docker Repository on Quay")](https://quay.io/repository/wehouse/purchase-or-not)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Heroku](http://heroku-badge.herokuapp.com/?app=wehouse-home-price-estimator&root=multiple-linear&style=flat&svg=1)](https://wehouse-home-price-estimator.herokuapp.com/multiple-linear)
+[![Heroku](http://heroku-badge.herokuapp.com/?app=purchase-or-not&root=ann&style=flat&svg=1)](https://purchase-or-not.herokuapp.com/ann)
 
 # Home Price Estimator
 
