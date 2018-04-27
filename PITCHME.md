@@ -20,17 +20,17 @@
 ---
 
 ## What is Artificial Neural Networks?
-![Neural Networks](https://www.analyticsvidhya.com/wp-content/uploads/2016/08/Artificial-Intelligence-Neural-Network-Nodes-670x440.jpg)
+![Neural Networks](media/ann1.jpg)
 
 ---
 
 ## Single Layer Perceptron
-![Single Layer Perceptron](https://www.analyticsvidhya.com/wp-content/uploads/2016/07/SLP.png)
+![Single Layer Perceptron](media/slp.jpg)
 
 ---
 
 ## Multi-Layer Perceptron
-![Multi Layer Perceptron](https://www.analyticsvidhya.com/wp-content/uploads/2016/07/MLP-3.png)
+![Multi Layer Perceptron](media/mlp.jpg)
 
 ---
 ## Activation Function
@@ -112,8 +112,7 @@ Is this model any good?
 
 ## Final Notes on Model Analysis
 
-* Good Accuracy, High Precision/Low Recall -> Useful for predicting positive outcomes highly accurately but will miss a lot of potential 
-positive outcomes. In plain English, this model when it predicts someone is going to answer positively to a sales call, results are quite reliable (high precision and accuracy). 
+* Good Accuracy, High Precision/Low Recall. 
 * Caveat here is, a lot of potential sales leads will fall through the cracks due to misclassification (low recall)
 * Worst problem with the model comes from data itself... Class Imbalance. How many positive outcomes in comparison to negatives?
 
