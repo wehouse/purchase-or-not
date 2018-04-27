@@ -89,6 +89,10 @@ y_pred = (y_pred > 0.5)
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
+#Metrics to look
+from sklearn.metrics import roc_auc_score
+print(roc_auc_score(y_test, y_pred))
+
 # serialize model to JSON
 model_json = classifier.to_json()
 with open("model.json", "w") as json_file:
