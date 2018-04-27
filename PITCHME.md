@@ -4,15 +4,6 @@
 
 ---
 
-## AGENDA
-* What is the problem we are solving here?
-* Analysis and Preliminary Conclusion
-* What is Artificial Neural Networks?
-* Experimental and Practical Significance
-* More on p-value interpretation
-
----
-
 ## What is the problem we are solving here?
 - **Context** As a Bank, it is our job to sell financial products and services to clients. This frequently takes the form of 'cold calling', which is making an unsolicited call on (someone), by telephone or in person, in an attempt to sell goods or services. 
 
@@ -26,17 +17,20 @@
 - On further examination we started to find some correlations between several demographics of clients and their decision to purchase our services or not. 
 
 
----?image=https://www.analyticsvidhya.com/wp-content/uploads/2016/08/Artificial-Intelligence-Neural-Network-Nodes-670x440.jpg
+---
 
 ## What is Artificial Neural Networks?
+![Neural Networks](https://www.analyticsvidhya.com/wp-content/uploads/2016/08/Artificial-Intelligence-Neural-Network-Nodes-670x440.jpg)
 
----?image=https://www.analyticsvidhya.com/wp-content/uploads/2016/07/SLP.png
+---
 
 ## Single Layer Perceptron
+![Single Layer Perceptron](https://www.analyticsvidhya.com/wp-content/uploads/2016/07/SLP.png)
 
----?image=https://www.analyticsvidhya.com/wp-content/uploads/2016/07/MLP-3.png
+---
 
 ## Multi-Layer Perceptron
+![Multi Layer Perceptron](https://www.analyticsvidhya.com/wp-content/uploads/2016/07/MLP-3.png)
 
 ---
 ## Activation Function
@@ -45,15 +39,87 @@
 
 ---
 
-## Deeper topics 
-* Optimization functions such as ADAM: Reduces computational power needed to reach optimal results.
-
----?image=http://ml-cheatsheet.readthedocs.io/en/latest/_images/cross_entropy.png
-
 ## Loss Function
+![Cross Entropy](http://ml-cheatsheet.readthedocs.io/en/latest/_images/cross_entropy.png)
 
+--- 
+
+## How to interpret results?
+
+**Accuracy: %89**
+
+Is this model any good?
+
+---
+
+## Confusion Matrix
+
+|   	| 0  	| 1  	|
+|---	|---	|---	|
+| 0  	| 7890  	| 91  	|
+| 1  	| 896  	| 166  	|
+
+---
+
+## Type I and II Errors
+
+![Type I and II Errors](https://www.gilliganondata.com/wp-content/uploads/2009/08/TypeI_TypeII1.JPG)
+
+---
+
+## Precision and Recall I
+![Precision and Recall](https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Precisionrecall.svg/440px-Precisionrecall.svg.png)
+
+---
+
+## Precision and Recall II
+![Precision and Recall Math](https://qph.fs.quoracdn.net/main-qimg-18cd74b05b850406e1c01b76b1cb8fd6)
+
+---
+
+## Our precision and recall results
+* Precision: 0.6071
+* Recall: 0.1639
+
+---
+
+## Bias vs Variance Intro
+![Bias vs Variance](http://www.machinelearningtutorial.net/wp-content/uploads/2017/01/bias-variance-tradeoff.svg)
+
+---
+
+## Bias vs Variance Trade-Off
+
+![Bias vs Variance TradeOff](http://www.luigifreda.com/wp-content/uploads/2017/03/Bias-Variance-Tradeoff-660x445.png)
+
+---
+
+## Area under ROC Curve I
+![Area under ROC curve](http://gim.unmc.edu/dxtests/roccomp.jpg)
+
+---
+
+## Area under ROC Curve II
+- .90-1 = excellent (A)
+- .80-.90 = good (B)
+- .70-.80 = fair (C)
+- .60-.70 = poor (D)
+- .50-.60 = fail (F)
+
+**our result is 0.502**
+
+---
+
+## Final Notes on Model Analysis
+
+* Good Accuracy, High Precision/Low Recall -> Useful for predicting positive outcomes highly accurately but will miss a lot of potential 
+positive outcomes. In plain English, this model when it predicts someone is going to answer positively to a sales call, results are quite reliable (high precision and accuracy). 
+* Caveat here is, a lot of potential sales leads will fall through the cracks due to misclassification (low recall)
+* Worst problem with the model comes from data itself... Class Imbalance. How many positive outcomes in comparison to negatives?
 
 ---
 ## More on Artificial Neural Networks
 - https://www.analyticsvidhya.com/blog/2016/08/evolution-core-concepts-deep-learning-neural-networks/
 - https://medium.com/data-science-group-iitr/loss-functions-and-optimization-algorithms-demystified-bb92daff331c
+- https://stackoverflow.com/questions/47104129/getting-a-low-roc-auc-score-but-a-high-accuracy
+- https://www.youtube.com/watch?v=F1ka6a13S9I
