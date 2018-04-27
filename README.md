@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Heroku](http://heroku-badge.herokuapp.com/?app=purchase-or-not&root=ann&style=flat&svg=1)](https://purchase-or-not.herokuapp.com/ann)
 
-# Home Price Estimator
+# Purchase Or Not
 
 ## Introduction
 By using a well known public data set[1] which contains 45211 observations of a Porteguese bank's telemarketing efforts, 
